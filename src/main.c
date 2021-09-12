@@ -9,7 +9,7 @@
 int main(void) {
     // For Mac "open xxxxx"
     // For Linux "xdg-open xxxxx"
-    system("xdg-open fireplace.html");
+    system("open fireplace.html");
 
     // For Windows, uncomment next line
     // ShellExecute(0, 0, L"fireplace.html", 0, 0 , SW_SHOW );
